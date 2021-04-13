@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* background */
+.bg_blue {
+    background-color: #2C3E50;
+}
+
+.bg_green {
+    background-color: #1ABC9C;
+}
+
+.bg_lightblue {
+    background-color: #3A546D;
+}
+
+
+
+
+
+
+/* header */
+
+.burger_menu {
+    display: none;
+}
+
+
+
+
+
+/* main */
+/* prima parte del main */
+
+.start img {
+    width: 30%;
+}
+/* seconda parte del main */
+.portfolio img {
+    max-width:100%;
+    padding: 10px;
+}
