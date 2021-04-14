@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* background */
 .bg_blue {
     background-color: #2C3E50;
@@ -23,23 +28,216 @@
 
 
 /* header */
-
-.burger_menu {
-    display: none;
+.site_header h2 {
+    font-size: 20px;
+    margin: 0;
 }
 
+.site_header ul{
+    font-size: 12px;
+}
 
-
-
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
 
 /* main */
 /* prima parte del main */
 
-.start img {
-    width: 30%;
+.start {
+    display: flex;
+    justify-content: center;
 }
+
+.start img {
+    width: 20%;
+    padding-top: 20px;
+
+}
+
+.start h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
+.start .border {
+    width: 30%;
+    height: 4px;
+    background-color: white;
+}
+
+.start i{
+    font-size: 30px;
+    color:white;
+}
+
+.start p {
+    color: white;
+    font-size:  20px;
+}
+
 /* seconda parte del main */
+.portfolio h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 20px;
+}
+
+.portfolio .border {
+    width: 30%;
+    height: 4px;
+    border-color :#2C3E50;
+    background-color: #2C3E50;
+}
+
+#color {
+    color: #2C3E50;
+}
+
+.portfolio i {
+    font-size: 30px;
+    color: #2C3E50;
+
+} 
+
 .portfolio img {
     max-width:100%;
     padding: 10px;
+    border-radius: 20px;
 }
+
+
+/* terza parte */
+
+.about h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+}
+
+.about .border {
+    width: 30%;
+    height: 4px;
+    background-color: white;
+}
+
+.about .star i {
+    font-size: 30px;
+    color:white;
+}
+
+.about p {
+    color: white;
+    font-size: 15px;
+}
+
+
+.about a {
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+#download {
+    padding-right: 10px;
+}
+
+/* QUARTA PARTE */
+
+.contact h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 20px;
+
+}
+
+.contact .border {
+    width: 30%;
+    height: 4px;
+    border-color :#2C3E50;
+    background-color: #2C3E50;
+}
+
+.contact i {
+    font-size: 30px;
+    color: #2C3E50;
+
+} 
+
+.contact input {
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid #CCCCCC;
+    color: #2C3E50;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+#message {
+    padding-bottom: 50px;
+}
+
+
+#send {
+    border-style:none;
+    width: 8%;
+    background-color: #1ABC9C;
+    color:white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+.info h3 {
+    color: white;
+
+}
+
+.info p {
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+    color: white;
+
+}
+
+.info li {
+    width:25%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    padding:10px;
+
+}
+
+#span {
+    color: #1ABC9C;
+
+}
+
+.copyright p{
+    color: white;
+    font-size: 12px;
+}
+
